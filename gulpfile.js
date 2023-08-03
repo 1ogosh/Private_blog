@@ -15,11 +15,11 @@ function scripts() {
                 .pipe(concat('main.min.js'))
                 .pipe(uglyfy())
                 .pipe(dest('app/js'))
-                .pipe(browserSync.stream())
+                .pipe(browserSync.stream());
 }
 function styles() {
         return src('app/scss/style.scss')
-                .pipe(autoprefixer({ overrideBrowserlist: ['last 10 version'] }))
+                .pipe(autoprefixer({ overrideBrowserslist: ['last 10 version'] }))
                 .pipe(concat('style.min.css'))
                 .pipe(scss({ outputStyle: 'compressed' }))
                 .pipe(dest('app/css'))
@@ -27,7 +27,7 @@ function styles() {
 }
 
 function watching() {
-        watch(['app/scss/style.scss'], styles)
+        watch(['app/scss/*.scss'], styles)
         watch(['app/js/main.js'], scripts)
         watch(['app/*.html']).on('change', browserSync.reload);
 }
