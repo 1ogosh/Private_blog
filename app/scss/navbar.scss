@@ -2,7 +2,7 @@
         height: 40px;
         background-color: #0D0D0D;
         margin-left: 300px;
-
+        display: flex;
         &_def {
                 color: #fff;
                 font-size: 11px;
@@ -11,11 +11,22 @@
                 text-transform: uppercase;
                 position: relative;
                 width: 86px;
-                margin-left: 23px;
+                margin-left: 45px;
                 top: 10px;
-
+                
                 &:first-child {
                         margin-left: 10px;
+                }
+                
+                &:hover{
+                        background-color: #3137C9;
+                        
+                }
+                
+                &_dropdown_btn{
+                        right: 5px;
+                        top: 9px;
+                        position: relative;
                 }
 
                 &_right {
@@ -24,25 +35,22 @@
                         font-family: Roboto-Regular;
                         text-decoration: none;
                         text-transform: uppercase;
-                        position: relative;
-                        width: 86px;
-                        display: inline-block;
-                        left: 80%;
-                        bottom: 10px;
-
+                        margin-left: 15px;
+                        display: flex;                
+                       
                         &_search {
-
                                 height: 40px;
                                 border: none;
                                 background-color: #202020;
                                 width: 212px;
                                 padding-left: 20px;
+                                display: flex;
                                 color: #fff;
-                                border: none;
                                 outline: none;
-                                float: right;
-                                position: relative;
-                                bottom: 19px;
+                                
+                              
+                                
+                                
                         }
                 }
 
