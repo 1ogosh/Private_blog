@@ -1,0 +1,29 @@
+.navbar{
+        height: 40px;
+        background-color: #0D0D0D;
+        margin-left: 300px;
+        &_search{
+                height: 40px;
+                border: none;
+                background-color: #202020;
+                width: 212px;
+                padding-left: 20px;
+                color: #fff;
+                border: none;
+                outline: none;
+                float: right;
+                position: relative;
+        }
+        &_def{
+                color: #fff;
+                font-size: 11px;
+                font-family: Roboto-Regular;
+                text-decoration: none;
+                text-transform: uppercase;
+                position: relative;
+                &:last-child{
+                        float: right;
+                }
+               
+        }
+}
