@@ -1,0 +1,92 @@
+.navbar {
+        height: 40px;
+        background-color: #0D0D0D;
+        margin-left: 300px;
+        display: flex;
+        list-style-type: none;
+
+        &_def {
+                color: #fff;
+                font-size: 11px;
+                font-family: Roboto-Regular;
+                text-decoration: none;
+                text-transform: uppercase;
+                width: 86px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 40px;
+                margin-left: 45px;
+                top: 10px;
+                transition: 0.5s ease;
+                margin-left: 0;
+
+                &:hover {
+                        background-color: #3137C9;
+
+                }
+
+                &_dropdown_btn {
+                        &_content {
+                               display: none;
+                                position: absolute;
+                                background-color: #3137C9;
+                                color: #fff;
+                                text-decoration: none;
+                                text-align: center;
+                                font-size: 11px;
+                                font-family: Roboto-Regular;
+                                text-decoration: none;
+                                text-transform: uppercase;
+                                min-width: 160px;
+                                z-index: 1;
+                                &.show{
+                                        display: block;
+                                }
+                                &.active {
+                                        color: #3137C9;
+                                        background-color: #fff;
+                                }
+                        }
+                }
+
+                &_right {
+                        color: #fff;
+                        font-size: 11px;
+                        font-family: Roboto-Regular;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        width: 86px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 40px;
+                        margin-left: 45px;
+                        top: 10px;
+                        position: absolute;
+                        left: 81.3%;
+                        top: 0;
+                        transition: 0.3s ease;
+
+                        &:hover {
+                                background-color: #3137C9;
+
+                        }
+
+                        &_search {
+                                height: 40px;
+                                border: none;
+                                background-color: #202020;
+                                width: 212px;
+                                padding-left: 20px;
+                                color: #fff;
+                                outline: none;
+                                left: 88%;
+                                top: 0;
+                                position: absolute;
+                        }
+                }
+
+        }
+
+}
