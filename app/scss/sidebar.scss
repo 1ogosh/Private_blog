@@ -4,20 +4,6 @@
         background-color: #202020;
         position: fixed;
 
-<<<<<<< HEAD
-        &_divic {
-                width: 100px;
-                height: 100px;
-                display: block;
-                max-width: 100%;
-                border-radius: 50%;
-                z-index: 1;
-                position: relative;
-                bottom: 45px;
-                margin: 0 auto;
-        }
-=======
->>>>>>> 8e25528f7ba8859f115cc58af18394a6e2f03a3b
 
         &_bg {
                 z-index: 0;
@@ -44,7 +30,7 @@
                 font-size: 18px;
                 color: #fff;
                 text-align: center;
-                margin-top: -35px;
+                margin-top: 10px;
                 margin-bottom: 5px;
 
         }
@@ -57,18 +43,18 @@
         }
 
         &_hrefs {
-                margin-top: 18px;
-                display: flex;
+                display: block;
                 align-items: center;
-                justify-content: space-between;
-                margin-left: 35%;
-                margin-right: 35%;
+                margin-left: 30%;
+                margin-right: 30%;
+                height: 40px;
+                margin-top: -25px;
         }
 
         &_href {
-                display: block;
+                width: 35px;
                 align-items: center;
-
+                cursor: pointer;
         }
 
 

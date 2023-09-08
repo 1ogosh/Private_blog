@@ -26,23 +26,32 @@
 
                 }
 
-                &_dropdown_btn {
+                &_dropdown {
+                        display: block;
+                        align-items: center;
+                        width: 165px;
                         &_content {
-                               display: none;
-                                position: absolute;
-                                background-color: #3137C9;
-                                color: #fff;
-                                text-decoration: none;
-                                text-align: center;
-                                font-size: 11px;
-                                font-family: Roboto-Regular;
-                                text-decoration: none;
-                                text-transform: uppercase;
-                                min-width: 160px;
-                                z-index: 1;
-                                &.show{
-                                        display: block;
+                              display: none;
+                              position: absolute;
+                              background-color: #3137C9;
+                              text-align: center;
+                              text-transform: uppercase;
+                              min-width: 160px;
+                              z-index: 1;
+                                & a{
+                                        margin-top: 10px;
+                                        font-size: 12px;
+                                        color: #fff; 
+                                        text-decoration: none; 
+                                        font-family: Roboto-Regular; 
+                                        text-transform: none; 
                                 }
+
+                                &.show {
+                                        display: block;
+                                       
+                                }
+
                                 &.active {
                                         color: #3137C9;
                                         background-color: #fff;
