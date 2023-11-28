@@ -31,24 +31,29 @@
                         align-items: center;
                         width: 165px;
                         &_content {
-                              display: none;
+                              display: block;
                               position: absolute;
                               background-color: #3137C9;
                               text-align: center;
                               text-transform: uppercase;
                               min-width: 160px;
                               z-index: 1;
-                                & a{
+                              margin-top: 40px;
+                              margin-left: 85px;
+                                & li{
+                                        width: 165px;
                                         margin-top: 10px;
-                                        font-size: 12px;
-                                        color: #fff; 
-                                        text-decoration: none; 
                                         font-family: Roboto-Regular; 
-                                        text-transform: none; 
+                                        text-transform: none;
+                                         & a{
+                                                color: #fff;
+                                                text-decoration: none; 
+                                                font-size: 12px; 
+                                         }
                                 }
 
-                                &.show {
-                                        display: block;
+                                &.hide {
+                                        display: none;
                                        
                                 }
 
