@@ -30,31 +30,57 @@
                         display: block;
                         align-items: center;
                         width: 165px;
+
+                        &_btn {
+                                color:#fff;
+                                font-size: 11px;
+                                font-family: Roboto-Regular;
+                                text-decoration: none;
+                                text-transform: uppercase;
+                                width: 86px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                height: 40px;
+                                margin-left: 45px;
+                                top: 10px;
+                                transition: 0.5s ease;
+                                margin-left: 0;
+
+                                &:hover {
+                                        background-color: #3137C9;
+
+                                }
+                        }
+
                         &_content {
-                              display: block;
-                              position: absolute;
-                              background-color: #3137C9;
-                              text-align: center;
-                              text-transform: uppercase;
-                              min-width: 160px;
-                              z-index: 1;
-                              margin-top: 40px;
-                              margin-left: 85px;
-                                & li{
-                                        width: 165px;
-                                        margin-top: 10px;
-                                        font-family: Roboto-Regular; 
-                                        text-transform: none;
-                                         & a{
-                                                color: #fff;
-                                                text-decoration: none; 
-                                                font-size: 12px; 
-                                         }
+                                display: block;
+                                background-color: #3137C9;
+                                text-align: center;
+                                text-transform: uppercase;
+                                margin-top: 40px;
+                                margin-left: 85px;
+                                width: 200px;
+
+                                &_elem {
+                                        display: block;
+
+                                        & a {
+                                                text-decoration: none;
+                                        }
                                 }
 
-                                &.hide {
-                                        display: none;
-                                       
+                                & li {
+                                        width: 165px;
+                                        margin-top: 10px;
+                                        font-family: Roboto-Regular;
+                                        text-transform: none;
+
+                                        & a {
+                                                color: #fff;
+                                                text-decoration: none;
+                                                font-size: 12px;
+                                        }
                                 }
 
                                 &.active {
