@@ -1,23 +1,56 @@
-.navbar_def_dropdown_btn {
-        color: #fff;
-        text-decoration: none;
-        font-size: 11px;
-        font-family: Roboto-Regular;
-        text-decoration: none;
-        text-transform: uppercase;
-        width: 86px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 40px;
-        margin-left: 45px;
-        top: 10px;
-        transition: 0.5s ease;
-        margin-left: 0;
+.navbar_def_dropdown {
+        &_btn {
+                color: #fff;
+                text-decoration: none;
+                font-size: 11px;
+                font-family: Roboto-Regular;
+                text-decoration: none;
+                text-transform: uppercase;
+                width: 86px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 40px;
+                margin-left: 45px;
+                top: 10px;
+                transition: 0.5s ease;
+                margin-left: 0;
+
+                &:hover {
+                        background-color: #3137C9;
+
+                }
+        }
+
+        &_content_list {
+                background-color: #3137C9;
+                margin-top: 40px;
+                position: absolute;
+                left: 558px;
+                width: 165px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                height: 84px;
+                line-height: 15px;
+
+                &_elem {
+                        display: block;
+                        color: #fff;
+                        font-family: Roboto-Regular;
+                        line-height: 25px;
+                        width: 165px;
+                        margin-left: 15px;
+
+                        a {
+                                color: #fff;
+                                font-size: 12px;
+                                font-family: Roboto-Regular;
+                                text-decoration: none;
+                        }
+                }
+
+
+
+        }
 }
-
-.navbar_def_dropdown_content {}
-
-.navbar_def_dropdown_content_elem {}
-
-.navbar_def_dropdown_content_list {}
