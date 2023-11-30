@@ -1,5 +1,6 @@
-&_dropdown {
+.navbar_def_dropdown_btn {
         color: #fff;
+        text-decoration: none;
         font-size: 11px;
         font-family: Roboto-Regular;
         text-decoration: none;
@@ -13,71 +14,10 @@
         top: 10px;
         transition: 0.5s ease;
         margin-left: 0;
-
-        &:hover {
-                background-color: #3137C9;
-
-        }
-
-        &_btn {
-                color: #fff;
-                font-size: 11px;
-                font-family: Roboto-Regular;
-                text-decoration: none;
-                text-transform: uppercase;
-                width: 86px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 40px;
-                margin-left: 45px;
-                top: 10px;
-                transition: 0.5s ease;
-                margin-left: 0;
-
-                &:hover {
-                        background-color: #3137C9;
-
-                }
-        }
-
-        &_content {
-                display: block;
-                background-color: #3137C9;
-                text-align: center;
-                text-transform: uppercase;
-                margin-top: 40px;
-                margin-left: 85px;
-                width: 165px;
-
-                &_elem {
-                        position: relative;
-
-                        & a {
-                                text-decoration: none;
-                        }
-                }
-
-                &_list {
-                        list-style: none;
-                }
-
-                & li {
-                        width: 165px;
-                        margin-top: 10px;
-                        font-family: Roboto-Regular;
-                        text-transform: none;
-
-                        & a {
-                                color: #fff;
-                                text-decoration: none;
-                                font-size: 12px;
-                        }
-                }
-
-                &.active {
-                        color: #3137C9;
-                        background-color: #fff;
-                }
-        }
 }
+
+.navbar_def_dropdown_content {}
+
+.navbar_def_dropdown_content_elem {}
+
+.navbar_def_dropdown_content_list {}
