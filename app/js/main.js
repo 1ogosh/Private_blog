@@ -1,3 +1,5 @@
+//Dropdown
+
 function dropdown() {
   const selectItem = document.querySelectorAll(".navbar_def_dropdown_btn");
 
@@ -7,7 +9,6 @@ function dropdown() {
 
       selectBody[i].classList.toggle("show");
       item.classList.toggle("shadow");
-      console.log('25');
     });
   });
 }
