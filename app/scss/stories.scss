@@ -1,0 +1,21 @@
+.Stories {
+        
+        
+        width: 700px;
+        height: 195px;
+        margin-top: 60px;
+        margin-left: 30%;
+        margin-right: 15%;
+        margin-bottom: 30px;
+       
+        
+
+        &_container {
+             display: inline-flex;      
+        }
+
+        &_img {
+                width: 140px;
+                height: 195px;
+        }
+}

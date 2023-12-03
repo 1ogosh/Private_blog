@@ -4,6 +4,7 @@
         margin-left: 300px;
         display: flex;
         list-style-type: none;
+        box-shadow: 0px 3px rgba(36, 35, 35, 0.225);
 
         &_def {
                 color: #fff;
@@ -22,30 +23,35 @@
                 margin-left: 0;
 
                 &:hover {
-                        background-color: #3137C9;
+                        background-color: $base-purple;
 
                 }
 
-                &_dropdown_btn_content{
-                        display: none;
-                        position: absolute;
-                        background-color: #f1f1f1;
-                        min-width: 160px;
-                        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-                        z-index: 1;
-                        &_a{
-                                color: black;
-                                padding: 12px 16px;
+                &_dropdown_btn {
+                        &_content {
+                                display: none;
+                                position: absolute;
+                                background-color: #3137C9;
+                                color: #fff;
                                 text-decoration: none;
-                                display: block;
-                                &:hover {
-                                        background-color: #3137C9;
-                
-                                }  
-                        }    
+                                text-align: center;
+                                font-size: 11px;
+                                font-family: Roboto-Regular;
+                                text-decoration: none;
+                                text-transform: uppercase;
+                                min-width: 160px;
+                                z-index: 1;
+
+                                &.show {
+                                        display: block;
+                                }
+
+                                &.active {
+                                        color: #3137C9;
+                                        background-color: #fff;
+                                }
+                        }
                 }
-                
-                
 
                 &_right {
                         color: #fff;
@@ -66,7 +72,7 @@
                         transition: 0.3s ease;
 
                         &:hover {
-                                background-color: #3137C9;
+                                background-color: $base-purple;
 
                         }
 
@@ -88,6 +94,6 @@
 
 }
 
-.show{
+.show {
         display: block;
 }

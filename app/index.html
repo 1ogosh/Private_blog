@@ -17,9 +17,9 @@
                 <h1>Дмитрий Валак</h1>
                 <h2>блог front-end разработчика</h2>
                 <div class="sidebar_hrefs">
-                        <img class="sidebar_href" src="img/icons/inst.png" alt="inst">
-                        <img class="sidebar_href" src="img/icons/VK.png" alt="vk">
-                        <img class="sidebar_href" src="img/icons/pinterest.png" alt="pinterest">
+                        <img class="sidebar_href" src="img/icons/icons8-instagram.svg" alt="inst">
+                        <img class="sidebar_href" src="img/icons/icons8-vk.svg" alt="vk">
+                        <img class="sidebar_href" src="img/icons/icons8-pinterest.svg" alt="pinterest">
                 </div>
                 <p class="sidebar_text">Front-end разработчик. Практик верстки сайтов.Созданием сайтов занимаюсь с 2012
                         года. Работал в
@@ -33,25 +33,49 @@
 
 
 
-        <div class="navbar">
-                <a class="navbar_def" href="#home">Главная</a>
-                <a class="navbar_def" href="#states">Статьи
-                        <button onclick="dropDown()" class="navbar_dropdown_btn"><img src="img/icons/Polygon 2.svg"
-                                        alt="arrow"></button></a>
-                        <div class="navbar_def_dropdown_btn_content">
-                                <a class="navbar_def_dropdown_btn_content_a" href="#">Создание сайтов</a>
-                                <a class="navbar_def_dropdown_btn_content_a" href="#">Интернет Маркетинг</a>
-                                <a class="navbar_def_dropdown_btn_content_a" href="#">Продвижение видео</a>
-                        </div>
+        <ul class="navbar">
+                <li> <a class="navbar_def" href="#">Главная</a> </li>
 
-                        <a class="navbar_def" href="#">Обо мне</a>
-                        <a class="navbar_def" href="#">Реклама</a>
-                        <div>
-                                <a class="navbar_def_right" href="#">Профиль</a>
-                                <input class="navbar_def_right_search" type="text" placeholder="Поиск по блогу">
-                        </div>
+                <li><a class="navbar_def" href="#">Обо мне</a></li>
+                <li><a class="navbar_def" href="#">Реклама</a></li>
 
+                <!------------------------Dropdown---------------------->
+                <li> <a class="navbar_def_dropdown_btn" href="#">Статьи
+                                <img class="navbar_def_dropdown_btn_img" src="img/icons/Polygon 2.svg" alt="Polygon">
+                        </a>
+                </li>
+
+
+                <div id="Dropdown" class="navbar_def_dropdown_content hide">
+                        <ul class="navbar_def_dropdown_content_list">
+                                <li class="navbar_def_dropdown_content_list_elem"> <a href="#">Создание сайтов</a></li>
+                                <li class="navbar_def_dropdown_content_list_elem"><a href="#">Интернет Маркетинг</a>
+                                </li>
+                                <li class="navbar_def_dropdown_content_list_elem"> <a href="#">Продвижение видео</a>
+                                </li>
+                        </ul>
+                </div>
+
+                <!------------------------------------------------------->
+
+                <div>
+                        <a class="navbar_def_right" href="#">Профиль</a>
+                        <input class="navbar_def_right_search" type="text" placeholder="Поиск по блогу">
+                </div>
+        </ul>
+        
+        
+       <section class="main">
+        <div class="Stories">
+            <div class="Stories_container">
+                <img class="Stories_img_1" src="img/images/story_img1.jpg" alt="storimg1">  
+                <img class="Stories_img_2" src="img/images/story_img2.jpg" alt="storimg2"> 
+                <img class="Stories_img_3" src="img/images/story_img3.jpg" alt="storimg3"> 
+                <img class="Stories_img_4" src="img/images/story_img4.jpg" alt="storimg4"> 
+            </div>
         </div>
+       </section>
+
         <script src="js/main.js"></script>
 </body>
 

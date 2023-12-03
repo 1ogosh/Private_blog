@@ -1,16 +1,18 @@
-function dropDown() {
-        document.getElementById('navbar_dropdown_btn').classList.toggle("show");
+//Dropdown
+
+function dropdown() {
+  const selectItem = document.querySelectorAll(".navbar_def_dropdown_btn");
+
+  selectItem.forEach((item, i) => {
+    item.addEventListener("click", (event) => {
+      const selectBody = document.querySelectorAll(".navbar_def_dropdown_content");
+
+      selectBody[i].classList.toggle("show");
+      item.classList.toggle("shadow");
+    });
+  });
 }
 
-window.onclick = function (event) {
-        if (!event.target.matches('.navbar_dropdown_btn')) {
-                let dropdowns = document.getElementsByClassName("navbar_def_dropdown_btn_content");
-                let i;
-                for (i = 0; i < dropdowns.length; i++) {
-                        let openDropdown = dropdowns[i];
-                        if (openDropdown.classList.contains('show')) {
-                                openDropdown.classList.remove('show');
-                        }
-                }
-        }
-}
+dropdown();
+
+
