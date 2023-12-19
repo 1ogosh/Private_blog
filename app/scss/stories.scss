@@ -1,5 +1,4 @@
 .Stories {
-
         width: 600px;
         height: 195px;
         margin-top: 200px;
@@ -8,11 +7,7 @@
         margin-top: 60px;
         justify-content: space-between;
         background-color: #181818;
-
-
-
-
-
+        
         &_img {
                 width: 140px;
                 height: 195px;
@@ -20,6 +15,7 @@
         }
 
         &_h1 {
+                position: relative;
                 font-family: 'Lato-Regular';
                 font-size: 12px;
                 margin-left: 12px;
@@ -29,10 +25,10 @@
         }
 
         &_date {
+             
+                
                 font-family: 'Roboto-Regular';
-                font-size: 12px;
-                text-align: right;
-                margin-right: 12px;
+                
         }
 
 

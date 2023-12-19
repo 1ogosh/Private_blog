@@ -1,30 +1,50 @@
-.Publicate {
-        width: 100%;
+.text-field {
         display: flex;
         justify-content: center;
-        margin-top: 30px;
+        margin-left: 47px;
 
-        &_input {
-                display: block;
-                z-index: 1;
-                width: 552px;
-                height: 74px;
-                background-color: #121212;
-                color: #D2D2D2;
-                padding-left: 28px;
-                padding-right: 20px;
-                font-size: 15px;
-                font-family: 'Roboto-Regular';
-                border: none;
-                outline: none;
+        &__icon {
+                position: relative;
 
-                &:hover {
+                & input {
+                        border-radius: 10px;
+                        margin-top: 30px;
+                        margin-left: 45px;
+                        font-size: 15px;
+                        padding-left: 28px;
+                        color: #D2D2D2;
+                        font-family: "Roboto-Medium";
+                        width: 575px;
+                        height: 74px;
+                        background-color: #121212;
                         border: none;
                 }
         }
 
-        &_img {
+        &__aicon_2 {
+                width: 44px;
+                height: 44px;
+                position: relative;
+                border: none;
+                align-items: center;
+                right: 105px;
                 cursor: pointer;
-                z-index: 2;
+                background-color: #3137C9;
+                border-radius: 25px;
+                transition: color 0.15s ease-in-out;
+        }
+
+        &__aicon_1 {
+                width: 44px;
+                height: 44px;
+                position: relative;
+                border: none;
+                top: 3px;
+                align-items: center;
+                right: 115px;
+                cursor: pointer;
+                background-color: #EBEBEB;
+                border-radius: 25px;
+                transition: color 0.15s ease-in-out;
         }
 }
