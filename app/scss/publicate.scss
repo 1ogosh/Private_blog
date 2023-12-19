@@ -1,0 +1,30 @@
+.Publicate {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+
+        &_input {
+                display: block;
+                z-index: 1;
+                width: 552px;
+                height: 74px;
+                background-color: #121212;
+                color: #D2D2D2;
+                padding-left: 28px;
+                padding-right: 20px;
+                font-size: 15px;
+                font-family: 'Roboto-Regular';
+                border: none;
+                outline: none;
+
+                &:hover {
+                        border: none;
+                }
+        }
+
+        &_img {
+                cursor: pointer;
+                z-index: 2;
+        }
+}
