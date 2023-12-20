@@ -7,28 +7,34 @@
         margin-top: 60px;
         justify-content: space-between;
         background-color: #181818;
-        
+
         &_img {
                 width: 140px;
                 height: 195px;
+                cursor: pointer;
 
         }
 
         &_h1 {
-                position: relative;
+                // position: relative;
                 font-family: 'Lato-Regular';
                 font-size: 12px;
                 margin-left: 12px;
                 text-align: left;
-
                 bottom: 180px;
+                height: 20px;
         }
 
         &_date {
-             
-                
-                font-family: 'Roboto-Regular';
-                
+                position: relative;
+                display: inline-block;
+                font-family: 'Lato-Regular';
+                font-size: 12px;
+                font-weight: 400;
+                width: 50px;
+                font-style: normal;
+                margin-left: 65px;
+                bottom: 55px;
         }
 
 
